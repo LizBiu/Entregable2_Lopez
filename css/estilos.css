@@ -1,0 +1,98 @@
+@charset "UTF-8";
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+  align-content: center;
+}
+.sin-estilo {
+  text-decoration: none;
+}
+
+a, h2,h3,p {
+  color: black;
+  text-align: center;
+}
+
+header:hover {
+  color: orangered;
+}
+
+img {
+  border-style: none;
+  display: block;
+}
+
+.modal-content {
+  font-size: 20px;
+  padding: 0%;
+}
+
+.modal-header {
+  font-weight: bold;
+  padding: 0%;
+  display: inline-block;
+}
+
+.modal-body {
+  line-height: auto;
+  padding: 0%;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* opcional, si quieres que el contenido esté centrado verticalmente en la página */
+  background-color: lightblue;
+}
+
+
+.columns {
+  flex-basis: calc(33.33% - 10px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.columns li {
+  margin-bottom: 10px;
+}
+
+.modal {
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 25%;
+  text-align: center;
+}
+
+thead {
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.center {
+  margin: auto;
+  background-color: lightblue;
+  width: 50%; /* opcional, si quieres darle un ancho al div */
+}
